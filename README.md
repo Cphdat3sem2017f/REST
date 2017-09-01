@@ -17,7 +17,7 @@
 ### Day 5 - Study point exercises
 
 ## Learning objectives
-- Learn the ideas with exposing and API via REST and JSON.
+- Learn the ideas behind implementing and API via REST and JSON.
 - Learn how to implement a REST API using Java's JAX-RX API
 - Learn how to deal with both success and failure scenarious in a REST API
 - Learn how to test a REST API using REST Assured.
