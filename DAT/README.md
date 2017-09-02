@@ -8,7 +8,7 @@
 - RESTful web service
 - Annotations
 - GSON
-<br>
+
 *Exercise - REST Quotes*<br>
 *Exercise - REST Persons*<br>
 
