@@ -4,20 +4,26 @@
 
 **Day 1 - Restfull webservice and REST with JAX-RS**<br>
 REST<br>
+JAX-RS<br>
+RESTful web service<br>
+Annotations<br>
+GSON<br>
 *Exercise - REST Quotes*<br>
 *Exercise - REST Persons*<br>
 
 **Day 2 - HTTP - Using HTTP with Restfull webservice**<br>
-<br>
+HTTP<br>
+POSTMAN (Install)<br>
 *Exercise - REST Digital Ocean*<br>
 
 **Day 3 - Errorhandling with REST**<br>
-<br>
+Catch exception -> JSON response<br>
 *Exercise - REST Quotes ErrorHandling*<br>
 *Exercise - REST Persons ErrorHandling*<br>
 
 **Day 4 - Test and testing REST Endpoints**<br>
-<br>
+Database mocking<br>
+RestAssured<br>
 *Exercise - REST RestAssured GettingStarted*<br>
 *Exercise - REST RestAssured Continued*<br>
 
@@ -38,6 +44,8 @@ REST<br>
 
 ## References 
 **REST / JAX-RS / JERSEY**<br>
+<a href="https://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">Wikipedia - REST</a><br>
+<a href="http://www.restapitutorial.com/lessons/whatisrest.html" target="_blank">RESTapiTutorial - What Is REST?</a><br>
 <a href="https://www.tutorialspoint.com/restful/index.htm" target="_blank">Tutorialspoint - REST Tutorial</a><br>
 <a href="https://dzone.com/articles/build-rest-service-netbeans-7" target="_blank">Dzone - REST Example</a><br>
 <a href="http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1" target="_blank">Dr.Doobs - REST Tutorial</a><br>
