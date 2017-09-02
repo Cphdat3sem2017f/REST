@@ -1,20 +1,8 @@
-```diff
-- Please observe: This repository is is not yet complete
-```
+# REST (RESTful Webservices) with JAX-RS (Java API for RESTful Web Services)
 
-#  REST (Restfull webservices) 
+Individual plans, exercises and reading guides for COS and DAT classes can be found here:
 
-## Plan
-
-### Day 1 - Restfull webservice and REST with JAX-RS
-
-### Day 2 - HTTP - Using HTTP with Restfull webservice
-
-### Day 3 - Errorhandling with REST
-
-### Day 4 - Test and testing REST Endpoints
-
-### Day 5 - Study point exercises
+[DAT](https://github.com/Cphdat3sem2017f/REST/tree/master/DAT) - [COS](https://github.com/Cphdat3sem2017f/REST/tree/master/COS)
 
 ## Learning objectives
 - Learn the ideas behind implementing and API via REST and JSON.
@@ -22,19 +10,7 @@
 - Learn how to deal with both success and failure scenarious in a REST API
 - Learn how to test a REST API using REST Assured.
 
-
 ## Business competences
-
 REST has become the current standard for designing web API's
 
-This week will provide students with the background to join teams, implementing REST API's  in any language/platform, even if this week uses JAX-RS.
-
-
-## Exercises 
-```diff
-- TBD
-```
-## Resources: 
-```diff
-- TBD
-```
+This week will provide students with the background to join teams, implementing REST API's in any language/platform, even if this week uses JAX-RS.
