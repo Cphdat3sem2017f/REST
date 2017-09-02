@@ -15,19 +15,19 @@
 **Day 2 - HTTP - Using HTTP with Restfull webservice**<br>
 - HTTP
 - POSTMAN (Install)
-<br>
+
 *Exercise - REST Digital Ocean*<br>
 
 **Day 3 - Errorhandling with REST**<br>
 - Catch exception -> JSON response
-<br>
+
 *Exercise - REST Quotes ErrorHandling*<br>
 *Exercise - REST Persons ErrorHandling*<br>
 
 **Day 4 - Test and testing REST Endpoints**<br>
 - Database mocking
 - RestAssured
-<br>
+
 *Exercise - REST RestAssured GettingStarted*<br>
 *Exercise - REST RestAssured Continued*<br>
 
