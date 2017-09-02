@@ -14,7 +14,7 @@
 
 **Day 2 - HTTP - Using HTTP with Restfull webservice**<br>
 - HTTP
-- POSTMAN ( <---Install )
+- POSTMAN ( <--- Install... )
 
 *Exercise - REST Digital Ocean*<br>
 
