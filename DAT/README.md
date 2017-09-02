@@ -25,11 +25,11 @@ REST<br>
 
 ## Exercises 
 [Exercise - REST Quotes](https://drive.google.com/open?id=13iWLS-XQZLtalNf-6ER3uJwyaPy0rw-OACC7Z6Tv7N8)<br>
-[Exercise - REST Quotes ErrorHandling](https://drive.google.com/open?id=1R8w8CfN12ZHJAqb7nK9ZApsqDTMZsIRBvHJSc1m9cPY)
+[Exercise - REST Quotes ErrorHandling](https://drive.google.com/open?id=1R8w8CfN12ZHJAqb7nK9ZApsqDTMZsIRBvHJSc1m9cPY)<br>
 [Exercise - REST Persons](https://drive.google.com/open?id=10UpxEHPBtdMpnlwVjVI-wNkoEAuoglD2HY_ofKo5yxI)<br>
-[Exercise - REST Persons ErrorHandling](https://drive.google.com/open?id=1VD-_3QHWrP-asOArc786JGAtlVkjhu6Iaj8UHfWByyg)
+[Exercise - REST Persons ErrorHandling](https://drive.google.com/open?id=1VD-_3QHWrP-asOArc786JGAtlVkjhu6Iaj8UHfWByyg)<br>
 [Exercise - REST Digital Ocean](https://drive.google.com/open?id=1D92Eynuh4YmIttOUWJtgmcWiTl9t1hWFdsJaYQgKI_E)<br>
-[Exercise - REST RestAssured GettingStarted](https://drive.google.com/open?id=13JAp6RUOozBKfK5-Cxr8L2z49wypqb2_N38XcmtFRtM)
+[Exercise - REST RestAssured GettingStarted](https://drive.google.com/open?id=13JAp6RUOozBKfK5-Cxr8L2z49wypqb2_N38XcmtFRtM)<br>
 [Exercise - REST RestAssured Continued](https://drive.google.com/open?id=1mMnFJgoCo2_Lgomwckz8RDttu9VV4a-_SE2xoGQOk5Y)
 
 ## Study point exercises
