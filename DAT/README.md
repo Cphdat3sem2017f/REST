@@ -47,7 +47,7 @@
 <a href="http://www.restapitutorial.com/httpstatuscodes.html" target="_blank">RESTapiTutorial - HTTP Status Codes</a><br>
 
 **POSTMAN**<br>
-<a href="https://blog.matrix42.com/2016/08/08/api-testing-postman-part-1/" target="_blank"></a><br>
+<a href="https://blog.matrix42.com/2016/08/08/api-testing-postman-part-1/" target="_blank">Matrix42 Blog - Postman</a><br>
 
 **TEST / EXCEPTIONS**<br>
 <a href="https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured" target="_blank">Semaphore - RestAssured</a><br>
