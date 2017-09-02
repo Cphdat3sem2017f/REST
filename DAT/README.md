@@ -69,11 +69,13 @@
 <a href="https://www.getpostman.com/" target="_blank">Postman - Home page</a><br>
 <a href="https://blog.matrix42.com/2016/08/08/api-testing-postman-part-1/" target="_blank">Matrix42 Blog - Postman</a><br>
 
-**TEST / EXCEPTIONS**<br>
-<a href="https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured" target="_blank">Semaphore - RestAssured</a><br>
+**EXCEPTIONS**<br>
 <a href="http://www.hacktrix.com/checked-and-unchecked-exceptions-in-java" target="_blank">Hacktrix - Exceptions</a><br>
 <a href="http://howtodoinjava.com/resteasy/exception-handling-in-jax-rs-resteasy-with-exceptionmapper/" target="_blank">HowToDoInJava - REST Exceptions</a><br>
+
+**TEST**<br>
 <a href="https://www.martinfowler.com/bliki/InMemoryTestDatabase.html" target="_blank">Fowler - InMemoryTestDatabase</a><br>
+<a href="https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured" target="_blank">Semaphore - RestAssured</a><br>
 
 **EXTRA**<br>
 <a href="https://en.wikipedia.org/wiki/SOAP" target="_blank">Wikipedia - SOAP</a><br>
