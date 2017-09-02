@@ -3,27 +3,27 @@
 ## Plan
 
 **Day 1 - Restfull webservice and REST with JAX-RS**<br>
-REST<br>
-JAX-RS<br>
-RESTful web service<br>
-Annotations<br>
-GSON<br>
+-  REST
+- JAX-RS
+- RESTful web service
+- Annotations
+- GSON
 *Exercise - REST Quotes*<br>
 *Exercise - REST Persons*<br>
 
 **Day 2 - HTTP - Using HTTP with Restfull webservice**<br>
-HTTP<br>
-POSTMAN (Install)<br>
+- HTTP
+- POSTMAN (Install)
 *Exercise - REST Digital Ocean*<br>
 
 **Day 3 - Errorhandling with REST**<br>
-Catch exception -> JSON response<br>
+- Catch exception -> JSON response
 *Exercise - REST Quotes ErrorHandling*<br>
 *Exercise - REST Persons ErrorHandling*<br>
 
 **Day 4 - Test and testing REST Endpoints**<br>
-Database mocking<br>
-RestAssured<br>
+- Database mocking
+- RestAssured
 *Exercise - REST RestAssured GettingStarted*<br>
 *Exercise - REST RestAssured Continued*<br>
 
@@ -73,4 +73,6 @@ RestAssured<br>
 
 **EXTRA**<br>
 <a href="https://en.wikipedia.org/wiki/SOAP" target="_blank">Wikipedia - SOAP</a><br>
+<a href="https://www.w3schools.com/xml/xml_soap.asp" target="_blank">W3schools - SOAP</a><br>
+<a href="https://en.wikipedia.org/wiki/Web_Services_Description_Language" target="_blank">Wikipedia - WSDL</a><br>
 <a href="https://www.w3schools.com/xml/xml_wsdl.asp" target="_blank">W3schools - WSDL</a><br>
