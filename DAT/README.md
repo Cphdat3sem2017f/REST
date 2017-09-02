@@ -34,7 +34,7 @@
 **REST / JAX-RS / JERSEY**<br>
 <a href="https://www.tutorialspoint.com/restful/index.htm" target="_blank">Tutorialspoint - REST Tutorial</a><br>
 <a href="https://dzone.com/articles/build-rest-service-netbeans-7" target="_blank">Dzone - REST Example</a><br>
-<a href="http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1" target="_blank">Dr.Doobs REST Tutorial</a><br>
+<a href="http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1" target="_blank">Dr.Doobs - REST Tutorial</a><br>
 <a href="http://www.mkyong.com/tutorials/jax-rs-tutorials/" target="_blank">Mkyong - JAX-RS Tutorial</a><br>
 <a href="http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api" target="_blank">VinaySahni - REST Best Practices</a><br>
 <a href="https://jersey.github.io/#d0e2822" target="_blank">Github - Jersey</a><br>
