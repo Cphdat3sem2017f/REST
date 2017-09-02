@@ -12,6 +12,7 @@ REST<br>
 *Exercise - REST Digital Ocean*<br>
 
 **Day 3 - Errorhandling with REST**<br>
+<br>
 *Exercise - REST Quotes ErrorHandling*<br>
 *Exercise - REST Persons ErrorHandling*<br>
 
