@@ -16,11 +16,16 @@ REST has become the current standard for designing web API's
 This week will provide students with the background to join teams, implementing REST API's in any language/platform, even if this week uses JAX-RS.
 
 ## Exercises 
-- Day 1-2: [Exercise REST (Quotes)](https://docs.google.com/document/d/13iWLS-XQZLtalNf-6ER3uJwyaPy0rw-OACC7Z6Tv7N8/edit?usp=sharing) ,  [Exercise REST (Person)](https://docs.google.com/document/d/10UpxEHPBtdMpnlwVjVI-wNkoEAuoglD2HY_ofKo5yxI/edit?usp=sharing)
-- Day 2 TBD
-- Day 3 TBD
-- Day 4  TBD
-- Day 5 StudyPoint Exercise3
+[Exercise - REST Quotes](https://drive.google.com/open?id=13iWLS-XQZLtalNf-6ER3uJwyaPy0rw-OACC7Z6Tv7N8)<br>
+[Exercise - REST Quotes ErrorHandling](https://drive.google.com/open?id=1R8w8CfN12ZHJAqb7nK9ZApsqDTMZsIRBvHJSc1m9cPY)<br>
+[Exercise - REST Persons](https://drive.google.com/open?id=10UpxEHPBtdMpnlwVjVI-wNkoEAuoglD2HY_ofKo5yxI)<br>
+[Exercise - REST Persons ErrorHandling](https://drive.google.com/open?id=1VD-_3QHWrP-asOArc786JGAtlVkjhu6Iaj8UHfWByyg)<br>
+[Exercise - REST Digital Ocean](https://drive.google.com/open?id=1D92Eynuh4YmIttOUWJtgmcWiTl9t1hWFdsJaYQgKI_E)<br>
+[Exercise - REST RestAssured GettingStarted](https://drive.google.com/open?id=13JAp6RUOozBKfK5-Cxr8L2z49wypqb2_N38XcmtFRtM)<br>
+[Exercise - REST RestAssured Continued](https://drive.google.com/open?id=1mMnFJgoCo2_Lgomwckz8RDttu9VV4a-_SE2xoGQOk5Y)
+
+## Study point exercises
+[Study point exercises](https://drive.google.com/open?id=1aqJx93Y9fROeYq6xbneWoBstVeDXIn00vimT0AWqaPk)
 
 ## Resources: 
 
