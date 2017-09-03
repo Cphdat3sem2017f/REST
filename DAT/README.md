@@ -3,10 +3,11 @@
 ## Plan
 
 **Day 1 - Restfull webservice and REST with JAX-RS**<br>
--  REST
+- REST
 - JAX-RS
 - RESTful web service
 - Annotations
+- POSTMAN ( <--- Install... )
 - GSON
 
 *Exercise - REST Quotes*<br>
@@ -14,12 +15,14 @@
 
 **Day 2 - HTTP - Using HTTP with Restfull webservice**<br>
 - HTTP
-- POSTMAN ( <--- Install... )
+- JPA <-> FACADE <-> REST <-> JQUERY
+- Deployment
 
 *Exercise - REST Digital Ocean*<br>
 
 **Day 3 - Errorhandling with REST**<br>
 - Catch exception -> JSON response
+- Web.xml
 
 *Exercise - REST Quotes ErrorHandling*<br>
 *Exercise - REST Persons ErrorHandling*<br>
