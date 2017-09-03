@@ -19,9 +19,10 @@ This week will provide students with the background to join teams, implementing 
 Day 1-2: 
 - [Exercise REST (Quotes)](https://docs.google.com/document/d/13iWLS-XQZLtalNf-6ER3uJwyaPy0rw-OACC7Z6Tv7N8/edit?usp=sharing)
 - [Exercise REST (Person)](https://docs.google.com/document/d/10UpxEHPBtdMpnlwVjVI-wNkoEAuoglD2HY_ofKo5yxI/edit?usp=sharing)
-Day 3 TBD
-Day 4  TBD
-Day 5 StudyPoint Exercise3
+- Day 2 TBD
+- Day 3 TBD
+- Day 4  TBD
+- Day 5 StudyPoint Exercise3
 
 ## Resources: 
 
