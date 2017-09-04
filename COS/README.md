@@ -1,7 +1,10 @@
 **Day-1**
 
-- [Slides](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=09165e71a37da4bc485ee39f9189a2b54&authkey=AaB-QkpoNyT1AVMlqMsheSk)
-- Remember to install [Postman](https://www.getpostman.com/) 
+Remember to install [Postman](https://www.getpostman.com/) 
+
+Slides Used Day-1
+- [REST General Intro](https://docs.microsoft.com/en-us/rest/api/storageservices/common-rest-api-error-codes)
+- [JAX-RS, Intro](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=096689c5617a1453786e2401a34858af8&authkey=AUj8EbepY-ohhgVLk3Z2klU) 
 
 These links cover more or less what I have/will talk about today:
 
