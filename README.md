@@ -37,3 +37,5 @@ This article gives a nice language independent introduction to REST (remember RE
 This is the user guide for the Java Jersey API we are using to implement REST. Don't be scared by the "size" of this Guide. Use it, just as a reference, when you need info about specific details.
 
 [Jersey, User Guide](https://jersey.github.io/documentation/latest/index.html)
+
+[REST - Best Practices](http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
