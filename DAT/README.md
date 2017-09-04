@@ -1,7 +1,9 @@
 # REST (RESTful Webservices) with JAX-RS (Java API for RESTful Web Services)
 
 <a href="REST_JAX-RS-Notes.pdf" target="_blank">REST_JAX-RS-Notes</a><br>
+<a href="https://www.twitch.tv/videos/172198991" target="_blank">Video - REST JSON</a><br>
 <a href="REST" target="_blank">Netbeans Maven Project - REST</a><br>
+
 ## Plan
 
 **Day 1 - Restfull webservice and REST with JAX-RS**<br>
