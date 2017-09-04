@@ -32,6 +32,7 @@ This week will provide students with the background to join teams, implementing 
 #### Our recommended resources for this week:
 This article gives a nice language independent introduction to REST (remember REST is not a Java thing, but can be implemented with Java)
 
+[Wikipedia - REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 [RESTful Web Services: A Tutorial](http://www.drdobbs.com/web-development/restful-web-services-a-tutorial/240169069?pgno=1)
 
 This is the user guide for the Java Jersey API we are using to implement REST. Don't be scared by the "size" of this Guide. Use it, just as a reference, when you need info about specific details.
