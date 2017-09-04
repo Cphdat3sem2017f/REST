@@ -1,1 +1,4 @@
-- Day-1 [Slides](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=09165e71a37da4bc485ee39f9189a2b54&authkey=AaB-QkpoNyT1AVMlqMsheSk)
+- Day-1 
+[Slides](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=09165e71a37da4bc485ee39f9189a2b54&authkey=AaB-QkpoNyT1AVMlqMsheSk)
+
+Remember to install [Postman](https://www.getpostman.com/) 
