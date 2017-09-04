@@ -1,0 +1,3 @@
+entity\Person.class
+rest\PersonResource.class
+rest\ApplicationConfig.class
