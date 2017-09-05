@@ -41,17 +41,22 @@ here](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
   * Exercise - REST Persons
 
 ### Day 3 - Errorhandling with REST, and deployment to Digital Ocean
-  We map java exceptions to http error responses, as well as create responses
-  (errors included) from scratch.
-  The JAX class for representing reponses (aptly named `Response`) is documented
-  [here](http://docs.oracle.com/javaee/7/api/javax/ws/rs/core/Response.html).
-  Creating error responses via exceptions and mapping existing exceptions to
-  error responses is described in the [JERSEY
-  documentation](https://jersey.github.io/documentation/latest/representations.html#d0e6352).
 
-  Time permitting, we will briefly look at [spark](http://sparkjava.com/), a
-  Sinatra inspired web framework for java, that does some things significantly
-  better than JAX, and does some things worse. (This is extra-curricular).
+Use [this
+guide](https://docs.google.com/document/d/1TnPFlZjl8phGqROQB0syUnSJQiaDASZya3gv8qK2qcI/edit?usp=sharing)
+to setup tomcat on Digital Ocean.
+
+We map java exceptions to http error responses, as well as create responses
+(errors included) from scratch. The JAX class for representing reponses (aptly
+named `Response`) is documented
+[here](http://docs.oracle.com/javaee/7/api/javax/ws/rs/core/Response.html).
+Creating error responses via exceptions and mapping existing exceptions to error
+responses is described in the [JERSEY
+documentation](https://jersey.github.io/documentation/latest/representations.html#d0e6352).
+
+Time permitting, we will briefly look at [spark](http://sparkjava.com/), a
+Sinatra inspired web framework for java, that does some things significantly
+better than JAX, and does some things worse. (This is extra-curricular).
 
 #### Exercises
   * Exercise - REST Quotes ErrorHandling
@@ -60,7 +65,7 @@ here](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
 ### Day 4 - Testing with RestAssured
 Details will follow.
 
-### Day 4 - Testing with RestAssured
+### Day 5 - Testing with RestAssured
 Study point exercises.
 
 
