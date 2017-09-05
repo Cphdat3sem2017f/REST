@@ -57,6 +57,13 @@ here](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
   * Exercise - REST Quotes ErrorHandling
   * Exercise - REST Persons ErrorHandling
 
+### Day 4 - Testing with RestAssured
+Details will follow.
+
+### Day 4 - Testing with RestAssured
+Study point exercises.
+
+
 <!--
 **Day 4 - Test and testing REST Endpoints**<br>
 - Database mocking
