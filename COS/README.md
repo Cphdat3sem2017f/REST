@@ -53,6 +53,8 @@ named `Response`) is documented
 Creating error responses via exceptions and mapping existing exceptions to error
 responses is described in the [JERSEY
 documentation](https://jersey.github.io/documentation/latest/representations.html#d0e6352).
+A more easily readable introduction can be found
+[here](https://dennis-xlc.gitbooks.io/restful-java-with-jax-rs-2-0-2rd-edition/en/part1/chapter7/exception_handling.html)
 
 Time permitting, we will briefly look at [spark](http://sparkjava.com/), a
 Sinatra inspired web framework for java, that does some things significantly
