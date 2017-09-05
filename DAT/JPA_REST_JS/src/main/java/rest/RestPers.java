@@ -1,6 +1,6 @@
 package rest;
 
-import entity.Person;
+import entity.Pers;
 import com.google.gson.Gson;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.UriInfo;
@@ -16,8 +16,8 @@ import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 
-@Path("person")
-public class PersonResource
+@Path("pers")
+public class RestPers
 {
     @Context
     private UriInfo context;
@@ -25,7 +25,7 @@ public class PersonResource
     @Context
     HttpHeaders headers;
 
-    public PersonResource()
+    public RestPers()
     {
     }
 
@@ -46,7 +46,6 @@ public class PersonResource
         System.out.println(id);
         System.out.println(job);
 
-        System.out.println(context.getPathParameters().toString());
         System.out.println(context.getQueryParameters().toString());
         System.out.println(context.getQueryParameters().get("job"));
 
@@ -57,13 +56,16 @@ public class PersonResource
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.APPLICATION_JSON)
     public String postJson(String content)
     {
-        Person p = new Gson().fromJson(content, Person.class);
+        //From json to  java object
+        Pers p = new Gson().fromJson(content, Pers.class);
         
         System.out.println(p);
         System.out.println(p.getLastName());
         
+        //From java object to json
         return new Gson().toJson(p);
     }
 }
