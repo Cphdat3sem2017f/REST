@@ -34,7 +34,7 @@ The fetch api is documented
 [here](https://developer.mozilla.org/en/docs/Web/API/Fetch_API).
 A pretty indept tutorial can be [found
 here](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
-r
+
 #### Exercises
 
   * Exercise - REST Quotes
@@ -43,6 +43,15 @@ r
 ### Day 3 - Errorhandling with REST, and deployment to Digital Ocean
   We map java exceptions to http error responses, as well as create responses
   (errors included) from scratch.
+  The JAX class for representing reponses (aptly named `Response`) is documented
+  [here](http://docs.oracle.com/javaee/7/api/javax/ws/rs/core/Response.html).
+  Creating error responses via exceptions and mapping existing exceptions to
+  error responses is described in the [JERSEY
+  documentation](https://jersey.github.io/documentation/latest/representations.html#d0e6352).
+
+  Time permitting, we will briefly look at [spark](http://sparkjava.com/), a
+  Sinatra inspired web framework for java, that does some things significantly
+  better than JAX, and does some things worse. (This is extra-curricular).
 
 #### Exercises
   * Exercise - REST Quotes ErrorHandling
@@ -77,14 +86,6 @@ r
 **HTTP**<br>
 <a href="http://www.mkyong.com/webservices/jax-rs/get-http-header-in-jax-rs/" target="_blank">Mkyong - HTTP Header</a><br>
 <a href="http://www.restapitutorial.com/httpstatuscodes.html" target="_blank">RESTapiTutorial - HTTP Status Codes</a><br>
-
-**POSTMAN**<br>
-<a href="https://www.getpostman.com/" target="_blank">Postman - Home page</a><br>
-<a href="https://blog.matrix42.com/2016/08/08/api-testing-postman-part-1/" target="_blank">Matrix42 Blog - Postman</a><br>
-
-**EXCEPTIONS**<br>
-<a href="http://www.hacktrix.com/checked-and-unchecked-exceptions-in-java" target="_blank">Hacktrix - Exceptions</a><br>
-<a href="http://howtodoinjava.com/resteasy/exception-handling-in-jax-rs-resteasy-with-exceptionmapper/" target="_blank">HowToDoInJava - REST Exceptions</a><br>
 
 **TEST**<br>
 <a href="https://www.martinfowler.com/bliki/InMemoryTestDatabase.html" target="_blank">Fowler - InMemoryTestDatabase</a><br>
