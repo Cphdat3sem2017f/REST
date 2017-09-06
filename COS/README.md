@@ -71,6 +71,9 @@ Time permitting, we will briefly look at [spark](http://sparkjava.com/), a
 Sinatra inspired web framework for java, that does some things significantly
 better than JAX, and does some things worse. (This is extra-curricular).
 
+**NOTE:**
+> The demo from the previous days has been updated with exception-mapping.
+
 #### Exercises
   * Exercise - REST Quotes ErrorHandling
   * Exercise - REST Persons ErrorHandling
