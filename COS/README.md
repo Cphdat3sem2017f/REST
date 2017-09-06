@@ -81,7 +81,12 @@ better than JAX, and does some things worse. (This is extra-curricular).
 -----
 
 ### Day 4 - Testing with RestAssured
-Details will follow.
+We use the [RestAssured](http://rest-assured.io/) framework to test our rest
+backends.
+
+[This tutorial](https://semaphoreci.com/community/tutorials/testing-rest-endpoints-using-rest-assured) covers the core concepts.
+
+-----
 
 ### Day 5
 Study point exercises.
