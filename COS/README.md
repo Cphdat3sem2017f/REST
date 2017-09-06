@@ -51,10 +51,11 @@ guide](https://docs.google.com/document/d/1TnPFlZjl8phGqROQB0syUnSJQiaDASZya3gv8
 to setup tomcat on Digital Ocean.
 
 **NOTE:**  
-The DAT folder contains some [notes](../DAT/REST_JAX-RS-Notes.pdf) on using
-environment variables to determine whether the program is running locally, or in
-production, so we can chose the right persistence unit. The document also
-contains some general musings on REST.
+
+> The DAT folder contains some [notes](../DAT/REST_JAX-RS-Notes.pdf) on using
+> environment variables to determine whether the program is running locally, or in
+> production, so we can chose the right persistence unit. The document also
+> contains some general musings on (REST.)
 
 We map java exceptions to http error responses, as well as create responses
 (errors included) from scratch. The JAX class for representing reponses (aptly
