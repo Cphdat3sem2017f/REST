@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PERSONS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>PERSONS</h1>
+        
+        <table>
+            <tr><td>METHOD</td><td>URL</td></tr>
+            <tr><td>GET</td><td>api/person/all</td></tr>
+            <tr><td>GET</td><td>api/person/{id}</td></tr>
+            <tr><td>POST</td><td>api/person</td></tr>
+            <tr><td>PUT</td><td>api/person</td></tr>
+            <tr><td>DELETE</td><td>api/person/{id}</td></tr>           
+        </table>
+
+        <h2>Persons</h2>
+        
+        <table id="TablePersons">
+            <thead>
+                <tr><th>ID</th><th>First name</th><th>Last name</th><th>Phone number</th></tr>
+            </thead>
+            <tbody id ="TablePersonsBody">
+            </tbody>
+        </table>
+        
+        <input id="PersonsRefresh" type="button" value="Persons refresh" /><br />        
+        <label>PersonID</label><input id="PersonID" type="text" /><br />
+        <label>PersonFirstName</label><input id="PersonFirstName" type="text" /><br />
+        <label>PersonLastName</label><input id="PersonLastName" type="text" /><br />
+        <label>PersonPhoneNumber</label><input id="PersonPhoneNumber" type="text" /><br />
+        
+        <input id="PersonAdd" type="button" value="Person add" /><br />
+        <input id="PersonEdit" type="button" value="Person edit" /><br />
+        <input id="PersonDelete" type="button" value="Person delete" />
+          
+        <script src="javascript.js"></script>
+    </body>
+</html>
