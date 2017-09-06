@@ -4,11 +4,11 @@ For a video of the JAX setup, see the [DAT](../DAT) folder.
 
 ## Plan
 
-### Day-1
+### Day 1
 
 Remember to install [Postman](https://www.getpostman.com/) 
 
-Slides Used Day-1
+Slides Used Day 1
 - [REST General Intro](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=07f4825a1d99a46fbb46b67f6eaabf44e&authkey=AaDF9us4PJNJ7Ove4ER5o_0)
 - [JAX-RS, Intro](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=096689c5617a1453786e2401a34858af8&authkey=AUj8EbepY-ohhgVLk3Z2klU) 
 
@@ -21,6 +21,8 @@ Read [RESTfull Web Services](http://www.drdobbs.com/web-development/restful-web-
 Use this [link](http://docs.oracle.com/javaee/6/tutorial/doc/gilik.html) as a quick summary of the most important annotations we will use to create our REST-endpoints
 
 This is the [main resource for jersey](https://jersey.github.io/documentation/latest/index.html) (the implementaion of the JAX-RS interface we are using)
+
+-----
 
 ### Day 2 - Same as day one.
 
@@ -40,7 +42,9 @@ here](https://developers.google.com/web/updates/2015/03/introduction-to-fetch)
   * Exercise - REST Quotes
   * Exercise - REST Persons
 
-### Day 3 - Errorhandling with REST, and deployment to Digital Ocean
+-----
+
+### [Day 3](Day3) - Errorhandling with REST, and deployment to Digital Ocean
 
 Use [this
 guide](https://docs.google.com/document/d/1TnPFlZjl8phGqROQB0syUnSJQiaDASZya3gv8qK2qcI/edit?usp=sharing)
@@ -64,12 +68,15 @@ better than JAX, and does some things worse. (This is extra-curricular).
   * Exercise - REST Quotes ErrorHandling
   * Exercise - REST Persons ErrorHandling
 
+-----
+
 ### Day 4 - Testing with RestAssured
 Details will follow.
 
-### Day 5 - Testing with RestAssured
+### Day 5
 Study point exercises.
 
+-----
 
 <!--
 **Day 4 - Test and testing REST Endpoints**<br>
