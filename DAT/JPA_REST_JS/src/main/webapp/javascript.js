@@ -27,6 +27,12 @@ function PersonsRefresh()
 {
     fetch("api/person/all", {method: "get"})
             .then(function (response) {
+                if (!response.ok)
+                {
+                    var error = new Error(response.statusText);
+                    error = response;
+                    throw error;
+                }
                 return response.json();
             })
             .then(function (json) {
@@ -49,7 +55,10 @@ function PersonsRefresh()
                 document.getElementById("TablePersonsBody").innerHTML = rows;
             })
             .catch(function (error) {
-                alert("Unable to refresh!");
+                return error.json();
+            })
+            .then(function (json) {
+                alert(json.description);
             });
 }
 

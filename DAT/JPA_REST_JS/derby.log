@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Thu Sep 07 18:47:20 CEST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088): instance a816c00e-015e-5d3d-1eee-0000059dde10 
+on database directory C:\Users\cnls\Desktop\JPA_REST_JS\memory\rest with class loader sun.misc.Launcher$AppClassLoader@4aa298b7 
+Loaded from file:/C:/Users/cnls/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_111-b14
+user.dir=C:\Users\cnls\Desktop\JPA_REST_JS
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

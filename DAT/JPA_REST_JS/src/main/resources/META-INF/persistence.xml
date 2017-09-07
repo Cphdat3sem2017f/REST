@@ -24,4 +24,16 @@
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
     </properties>
   </persistence-unit>
+    <persistence-unit name="PU_DERBY" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>entity.Person</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:derby:memory/rest;create=true"/>
+      <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>
+      <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+      <property name="eclipselink.canonicalmodel.subpackage" value="test"/>
+    </properties>
+  </persistence-unit>
 </persistence>

@@ -16,6 +16,8 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import deploy.DeploymentConfiguration;
+import java.util.List;
+import restexception.PersonsNotFoundException;
 
 @Path("person")
 public class RestPerson
@@ -33,9 +35,18 @@ public class RestPerson
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     @Path("/all")
-    public String getPersons()
+    public String getPersons() throws PersonsNotFoundException
     {
-        return new Gson().toJson(fp.getPersons());
+        List<Person> persons = fp.getPersons();
+        
+        if(persons.size() != 0)
+        {
+            return new Gson().toJson(persons);
+        }
+        else
+        {
+            throw new PersonsNotFoundException();
+        }
     }
            
     @GET
