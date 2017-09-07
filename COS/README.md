@@ -57,6 +57,19 @@ to setup tomcat on Digital Ocean.
 > production, so we can chose the right persistence unit. The document also
 > contains some general musings on REST.
 
+In java, environment variables can be easily accessed in java:
+ ```java
+import java.util.Map;
+
+public class EnvExample {
+	public static void main(String[] args){
+		Map<String,String> vars = System.getenv();
+		System.out.println(vars.get("exvalue"));
+	}
+}
+```
+
+
 We map java exceptions to http error responses, as well as create responses
 (errors included) from scratch. The JAX class for representing reponses (aptly
 named `Response`) is documented
