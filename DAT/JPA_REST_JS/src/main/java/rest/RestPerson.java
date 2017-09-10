@@ -29,6 +29,7 @@ public class RestPerson
     {
         fp = new FacadePerson();
         fp.addEntityManagerFactory(Persistence.createEntityManagerFactory(DeploymentConfiguration.PU_NAME));
+
         gson = new Gson();
     }
     
@@ -39,7 +40,7 @@ public class RestPerson
     {
         List<Person> persons = fp.getPersons();
         
-        if(persons.size() != 0)
+        if(!persons.isEmpty())
         {
             return new Gson().toJson(persons);
         }
@@ -55,6 +56,7 @@ public class RestPerson
     public String getPerson(@PathParam("id") Long id)
     {
         Person p = fp.getPerson(id);
+
         if(p != null)
         {
             return new Gson().toJson(p);
@@ -69,6 +71,7 @@ public class RestPerson
     public String postPerson(String content)
     {
         JsonObject body = new JsonParser().parse(content).getAsJsonObject();
+        
         String PersonFirstName = "";
         String PersonLastName = "";
         int PersonPhoneNumber = 0;
@@ -87,6 +90,7 @@ public class RestPerson
         }       
 
         Person p = new Person(PersonFirstName, PersonLastName, PersonPhoneNumber);
+
         fp.addPerson(p);
         
         return new Gson().toJson(p);
@@ -98,6 +102,7 @@ public class RestPerson
     public String putPerson(String content)
     {
         JsonObject body = new JsonParser().parse(content).getAsJsonObject();
+        
         Person p = fp.getPerson(body.get("id").getAsLong());
         
         if(body.has("firstName"))

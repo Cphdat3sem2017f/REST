@@ -64,25 +64,29 @@ public class RestPersonIntegrationTest
     @Test
     public void postGetDeletePerson()
     {
-        Person p = new Person("Kurt", "Wonnegut", 12344321);
+        System.out.println("postGetDeletePerson");
+        
+        //POST
+        Person postedPerson = new Person("Kurt", "Wonnegut", 12344321);
         Person newPerson =
         given()
         .contentType(ContentType.JSON)
-        .body(p)
+        .body(postedPerson)
         .when().post("/api/person")
         .as(Person.class);
-
         assertNotNull(newPerson.getId());
     
-        given()
+        //GET
+        Person gottenPerson = given()
         .contentType(ContentType.JSON)
-        .when().get("/api/person/" + newPerson.getId()).then()
-        .body("id",notNullValue())
-        .body("firstName", equalTo("Kurt"));
-    
-        given()
+        .when().get("/api/person/" + newPerson.getId()).as(Person.class); 
+        assertNotNull(gottenPerson.getId());
+        assertEquals("Kurt", gottenPerson.getFirstName());
+
+        //DELETE
+        Person deletedPerson = given()
         .contentType(ContentType.JSON)
-        .when().delete("/api/person/" + newPerson.getId()).then()
-        .body("firstName", equalTo("Kurt"));
+        .when().delete("/api/person/" + newPerson.getId()).as(Person.class);
+        assertEquals("Kurt", deletedPerson.getFirstName());
     }
 }

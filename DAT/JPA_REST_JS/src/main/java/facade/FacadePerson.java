@@ -13,45 +13,57 @@ public class FacadePerson implements InterfaceFacadePerson
     {
     }
 
+    @Override
     public void addEntityManagerFactory(EntityManagerFactory emf)
     {
         this.emf = emf;
     }
     
+    @Override
     public EntityManager getEntityManager()
     {
         return emf.createEntityManager();
     }
 
+    @Override
     public Person getPerson(Long id)
     {
         EntityManager em = emf.createEntityManager();
         
+        Person p;
+        
         try
         {
-            Person p = em.find(Person.class, id);
-            return em.find(Person.class, id);    
+            p = em.find(Person.class, id);
         }
         finally
         {
             em.close();
         }
+        
+        return p;    
     }
     
+    @Override
     public List<Person> getPersons()
     {
         EntityManager em = emf.createEntityManager();
-
+        
+        List<Person> persons;
+        
         try
         {
-            return em.createQuery("SELECT p FROM Person p").getResultList();
+            persons = em.createQuery("SELECT p FROM Person p").getResultList();
         }
         finally
         {
             em.close();
         }
+        
+        return persons;
     }
     
+    @Override
     public Person addPerson(Person person)
     {
         EntityManager em = emf.createEntityManager();
@@ -61,28 +73,31 @@ public class FacadePerson implements InterfaceFacadePerson
             em.getTransaction().begin();
             em.persist(person);
             em.getTransaction().commit();
-            return person;
         }
         finally
         {
             em.close();
         }
+        
+        return person;
     }
     
+    @Override
     public Person editPerson(Person person)
     {
         EntityManager em = emf.createEntityManager();
 
+        Person p;
+        
         try
         {
             em.getTransaction().begin();
-            Person p = em.find(Person.class, person.getId());
+            p = em.find(Person.class, person.getId());
             if(p != null)
             {
                 p = person;
                 em.merge(p);
                 em.getTransaction().commit();
-                return p;
             }
         }
         finally
@@ -90,24 +105,28 @@ public class FacadePerson implements InterfaceFacadePerson
             em.close();
         }  
         
-        return null;
+        return p;
     }
     
+    @Override
     public Person deletePerson(Long id)
     {
         EntityManager em = emf.createEntityManager();
 
+        Person p;
+        
         try
         {
             em.getTransaction().begin();
-            Person p = em.find(Person.class, id);
+            p = em.find(Person.class, id);
             em.remove(p);
             em.getTransaction().commit();
-            return p;
         }
         finally
         {
             em.close();
         }
+        
+        return p;
     }
 }
