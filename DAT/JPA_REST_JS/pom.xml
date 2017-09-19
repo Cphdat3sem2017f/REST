@@ -68,7 +68,7 @@
 
     <build>
         <plugins>
-            
+                     
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-surefire-plugin</artifactId>
@@ -128,7 +128,40 @@
 </execution>
 </executions>
 </plugin>
-                      
+
+<plugin>
+<artifactId>maven-antrun-plugin</artifactId>
+<version>1.8</version>
+<executions>
+<execution>
+<id>replace-persistence</id>
+<phase>pre-integration-test</phase>
+<configuration>
+<target>
+<echo>Replacing deployment persistence.xml with test version...</echo>
+<copy file="${project.build.testOutputDirectory}/META-INF/persistence.xml" tofile="${project.build.outputDirectory}/META-INF/persistence.xml" overwrite="true"/>
+</target>
+</configuration>
+<goals>
+<goal>run</goal>
+</goals>
+</execution>
+<execution>
+<id>restore-persistence</id>
+<phase>post-integration-test</phase>
+<configuration>
+<target>
+<echo>Restoring deployment persistence.xml...</echo>
+<copy file="${project.build.outputDirectory}/META-INF/persistence.xml" tofile="${project.build.outputDirectory}/META-INF/persistence.xml" overwrite="true"/>
+</target>
+</configuration>
+<goals>
+<goal>run</goal>
+</goals>
+</execution>
+</executions>
+</plugin>
+                                                                  
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -175,6 +208,7 @@
                 </executions>
             </plugin>
         </plugins>
+        
     </build>
 
 </project>
